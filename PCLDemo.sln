@@ -41,7 +41,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinRTApp_Shared_Partial", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPhone_Shared_Partial", "WinPhone_Shared_Partial\WinPhone_Shared_Partial.csproj", "{6798C6B5-0611-4C61-871E-8F33D7088B4D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Universal Apps", "Universal Apps", "{D68B672F-053B-4560-A3F3-EBFDB7A20221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UniversalApp", "UniversalApp", "{DA3CE086-CAEC-4E39-9859-044F83F09E2E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UniversalApp.Shared", "UniversalApp\UniversalApp.Shared\UniversalApp.Shared.shproj", "{7026B0EC-F788-4EDD-BBC7-A6DE2936EAD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalApp.Windows", "UniversalApp\UniversalApp.Windows\UniversalApp.Windows.csproj", "{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalApp.WindowsPhone", "UniversalApp\UniversalApp.WindowsPhone\UniversalApp.WindowsPhone.csproj", "{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		UniversalApp\UniversalApp.Shared\UniversalApp.Shared.projitems*{8a0c064c-2d77-44cb-8c7f-05ddee271cee}*SharedItemsImports = 4
+		UniversalApp\UniversalApp.Shared\UniversalApp.Shared.projitems*{ea55ca1f-78ea-408b-b2b5-53bf01c4177b}*SharedItemsImports = 4
+		UniversalApp\UniversalApp.Shared\UniversalApp.Shared.projitems*{7026b0ec-f788-4edd-bbc7-a6de2936ead5}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -293,6 +308,50 @@ Global
 		{6798C6B5-0611-4C61-871E-8F33D7088B4D}.Release|x86.ActiveCfg = Release|x86
 		{6798C6B5-0611-4C61-871E-8F33D7088B4D}.Release|x86.Build.0 = Release|x86
 		{6798C6B5-0611-4C61-871E-8F33D7088B4D}.Release|x86.Deploy.0 = Release|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|ARM.Build.0 = Debug|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x64.ActiveCfg = Debug|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x64.Build.0 = Debug|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x64.Deploy.0 = Debug|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x86.ActiveCfg = Debug|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x86.Build.0 = Debug|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Debug|x86.Deploy.0 = Debug|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|ARM.ActiveCfg = Release|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|ARM.Build.0 = Release|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|ARM.Deploy.0 = Release|ARM
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x64.ActiveCfg = Release|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x64.Build.0 = Release|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x64.Deploy.0 = Release|x64
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x86.ActiveCfg = Release|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x86.Build.0 = Release|x86
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE}.Release|x86.Deploy.0 = Release|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|ARM.Build.0 = Debug|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|x86.ActiveCfg = Debug|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|x86.Build.0 = Debug|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Debug|x86.Deploy.0 = Debug|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|ARM.ActiveCfg = Release|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|ARM.Build.0 = Release|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|ARM.Deploy.0 = Release|ARM
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|x86.ActiveCfg = Release|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|x86.Build.0 = Release|x86
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -314,5 +373,9 @@ Global
 		{CA52E592-35C3-4A60-8454-07BEE6660021} = {46248E9F-5210-4004-8240-E7FE77ED9384}
 		{051E796B-E026-4D06-924A-8CF8E1A95BDF} = {5E3B81DB-BD3B-4E95-8029-D9F72B0621BA}
 		{6798C6B5-0611-4C61-871E-8F33D7088B4D} = {5E3B81DB-BD3B-4E95-8029-D9F72B0621BA}
+		{DA3CE086-CAEC-4E39-9859-044F83F09E2E} = {D68B672F-053B-4560-A3F3-EBFDB7A20221}
+		{7026B0EC-F788-4EDD-BBC7-A6DE2936EAD5} = {DA3CE086-CAEC-4E39-9859-044F83F09E2E}
+		{8A0C064C-2D77-44CB-8C7F-05DDEE271CEE} = {DA3CE086-CAEC-4E39-9859-044F83F09E2E}
+		{EA55CA1F-78EA-408B-B2B5-53BF01C4177B} = {DA3CE086-CAEC-4E39-9859-044F83F09E2E}
 	EndGlobalSection
 EndGlobal
